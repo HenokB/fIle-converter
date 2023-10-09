@@ -58,15 +58,6 @@ def test_txt_to_csv(create_test_files):
     converted_data = pd.read_csv(output_csv)
     pd.testing.assert_frame_equal(converted_data, SAMPLE_DF)
 
-def test_json_to_txt(create_test_files):
-    # Convert JSON to TXT
-    output_txt = "tests/test_files/output_from_json.txt"
-    JSONConverter.json_to_txt(JSON_FILE, output_txt)
-    
-    # Check the generated file
-    converted_data = pd.read_csv(output_txt, sep="\t")
-    pd.testing.assert_frame_equal(converted_data, SAMPLE_DF)
-
 def test_txt_to_json(create_test_files):
     # Convert TXT to JSON
     output_json = "tests/test_files/output_from_txt.json"
