@@ -1,4 +1,3 @@
-from .csv_converter import CSVConverter
-from .json_converter import JSONConverter
+from .converter import FileConverter
 
-__all__ = ['CSVConverter','JSONConverter']  
+__all__ = ['FileConverter']  
