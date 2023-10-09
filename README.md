@@ -43,14 +43,16 @@ pip install file_converter
 import file_converter
 
 # Example usage:
-# Convert JSON to CSV
+### Convert JSON to CSV
+
 file_converter.FileConverter.json_to_csv("input_file.json", "output_file.csv")
 
-# Convert CSV to TXT
+### Convert CSV to TXT
+
 file_converter.FileConverter.csv_to_txt("input_file.csv", "output_file.txt")
 </pre>
 
-<h3>Parameters:</h3>
+<!-- <h3>Parameters:</h3>
 <p>Each method has specific parameters which can be found in the docstrings of the method implementations.</p>
 
 <h3>Installation:</h3>
@@ -60,4 +62,4 @@ file_converter.FileConverter.csv_to_txt("input_file.csv", "output_file.txt")
 <p>Instructions for how others can contribute to your project.</p>
 
 <h3>License:</h3>
-<p>Specify the license under which your project is available.</p>
+<p>Specify the license under which your project is available.</p> -->
