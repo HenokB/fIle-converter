@@ -42,7 +42,7 @@ pip install file_converter
 <pre>
 import file_converter
 
-# Example usage:
+## Example usage:
 ### Convert JSON to CSV
 
 file_converter.FileConverter.json_to_csv("input_file.json", "output_file.csv")
