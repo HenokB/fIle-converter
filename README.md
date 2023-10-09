@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://github.com/HenokB/file-converter/assets/46082799/fa1459e2-0213-4f1a-ab85-8313719d82ec" align="center" alt="file_converter" />
+ <img width="200px" src="https://github.com/HenokB/file-converter/assets/46082799/fa1459e2-0213-4f1a-ab85-8313719d82ec" align="center" alt="file_converter" />
  <h2 align="center">file_converter</h2>
  <p align="center">A simple and efficient file converter package for various data file types. </p>
 </p>
