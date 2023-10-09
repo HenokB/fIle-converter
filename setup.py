@@ -18,6 +18,7 @@ setup(
     'Intended Audience :: Developers',    
     'Topic :: Software Development :: Build Tools',
     'License :: OSI Approved :: MIT License',   
+    
     'Programming Language :: Python :: 2.7',      
     'Programming Language :: Python :: 3',    
     'Programming Language :: Python :: 3.3',
@@ -31,10 +32,7 @@ setup(
     'Programming Language :: Python :: 3.11',
   ],
     python_requires='>=3.6',
-    install_requires=[
-        "pandas>=1.2.0",
-        # Other dependencies...
-    ],
+    install_requires=[],
     extras_require={
         "dev": [
             "pytest>=3.7",
