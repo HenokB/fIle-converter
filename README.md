@@ -37,3 +37,27 @@
 ```bash
 pip install file_converter
 ```
+
+<h3>Usage:</h3>
+<pre>
+import file_converter
+
+# Example usage:
+# Convert JSON to CSV
+file_converter.FileConverter.json_to_csv("input_file.json", "output_file.csv")
+
+# Convert CSV to TXT
+file_converter.FileConverter.csv_to_txt("input_file.csv", "output_file.txt")
+</pre>
+
+<h3>Parameters:</h3>
+<p>Each method has specific parameters which can be found in the docstrings of the method implementations.</p>
+
+<h3>Installation:</h3>
+<p>Provide instructions on how to install your library, perhaps using pip or by cloning the repository.</p>
+
+<h3>Contributing:</h3>
+<p>Instructions for how others can contribute to your project.</p>
+
+<h3>License:</h3>
+<p>Specify the license under which your project is available.</p>
