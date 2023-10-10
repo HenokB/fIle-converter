@@ -44,12 +44,24 @@ import file_converter
 
 ## Example usage:
 ### Convert JSON to CSV
-
+```bash
 file_converter.FileConverter.json_to_csv("input_file.json", "output_file.csv")
-
+```
 ### Convert CSV to TXT
 
+```bash
 file_converter.FileConverter.csv_to_txt("input_file.csv", "output_file.txt")
+```
+
+### Convert CSV to JSON
+```bash
+file_converter.FileConverter.csv_to_json("input_file.csv", "output_file.json")
+```
+### Convert TXT to CSV
+
+```bash
+file_converter.FileConverter.txt_to_csv("input_file.txt", "output_file.csv")
+```
 </pre>
 
 <!-- <h3>Parameters:</h3>
