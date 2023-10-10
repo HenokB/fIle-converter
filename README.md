@@ -83,9 +83,8 @@ file_converter.FileConverter.txt_to_csv("input_file.txt", "output_file.csv")
 
 For license information, see [LICENSE.txt](LICENSE.txt).
 
-## License
 
-[Henok B Ademtew](https://twitter.com/henokademtew)
+Created by [Henok B Ademtew](https://twitter.com/henokademtew), 2023
 
 
 
