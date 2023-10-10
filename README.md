@@ -58,10 +58,16 @@ def txt_to_json(create_test_files):
 ```
 
 ## Example usage:
+
 ### Convert JSON to CSV
 ```bash
 file_converter.FileConverter.json_to_csv("input_file.json", "output_file.csv")
 ```
+### Convert JSON to TXT
+```bash
+file_converter.FileConverter.json_to_txt("input_file.json", "output_file.txt")
+```
+
 ### Convert CSV to TXT
 
 ```bash
