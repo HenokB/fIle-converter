@@ -39,8 +39,23 @@ pip install file_converter
 ```
 
 <h3>Usage:</h3>
-<pre>
-import file_converter
+<p>
+
+#### *Try your first file converter program*
+
+```shell
+$ python
+```
+
+```python
+
+import pandas as pd
+from file_converter import FileConverter
+ # convert a txt file to a json format.
+def txt_to_json(create_test_files):
+    output_json = "tests/test_files/output_from_txt.json"
+    FileConverter.txt_to_json(TXT_FILE, output_json)
+```
 
 ## Example usage:
 ### Convert JSON to CSV
@@ -62,16 +77,16 @@ file_converter.FileConverter.csv_to_json("input_file.csv", "output_file.json")
 ```bash
 file_converter.FileConverter.txt_to_csv("input_file.txt", "output_file.csv")
 ```
-</pre>
+<p>
 
-<!-- <h3>Parameters:</h3>
-<p>Each method has specific parameters which can be found in the docstrings of the method implementations.</p>
+## Copyright
 
-<h3>Installation:</h3>
-<p>Provide instructions on how to install your library, perhaps using pip or by cloning the repository.</p>
+For license information, see [LICENSE.txt](LICENSE.txt).
 
-<h3>Contributing:</h3>
-<p>Instructions for how others can contribute to your project.</p>
+## License
 
-<h3>License:</h3>
-<p>Specify the license under which your project is available.</p> -->
+[Henok B Ademtew](https://twitter.com/henokademtew)
+
+
+
+
